@@ -27,7 +27,7 @@ variable "admin_ssh_public_key" {
 
 resource "azurerm_resource_group" "lab" {
   name     = "rg-terraform-aula"
-  location = "southafricanorth"
+  location = "chilecentral"
 }
 
 # ============================================================
